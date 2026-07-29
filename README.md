@@ -11,4 +11,3 @@ Center for Computational Science & Engineering (MSEAS group, advisor Prof. Pierr
 | APS DFD 2026 | Regime-conditioned data-driven subgrid-scale closures with uncertainty for turbulent flows past obstacles | Submitted |
 | SIAM CSE 2027 | Machine-learning–augmented linear multistep methods: matching high-order Runge–Kutta accuracy and stability at linear multistep cost | In preparation |
 
-Research code and the agent-research-lab that produced this work: https://github.com/sanaamouzahir/qg-closure
