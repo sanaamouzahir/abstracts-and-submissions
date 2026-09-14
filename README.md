@@ -1,13 +1,19 @@
-# Abstracts & Submissions
+# Research View
 
-Conference and journal submissions. Sanaa Mouzahir, MIT Mechanical Engineering /
-Center for Computational Science & Engineering (MSEAS group, advisor Prof. Pierre F. J. Lermusiaux).
+Static, Vercel-ready research portfolio.
 
-## 2026
+## Deploy
 
-| Venue | Title | Status |
-|---|---|---|
-| IEEE OCEANS 2026 | Data-driven SGS closures with sparse-GP uncertainty for flows past obstacles | **Accepted** |
-| APS DFD 2026 | Regime-conditioned data-driven subgrid-scale closures with uncertainty for turbulent flows past obstacles | Submitted |
-| SIAM CSE 2027 | Machine-learning–augmented linear multistep methods: matching high-order Runge–Kutta accuracy and stability at linear multistep cost | In preparation |
+1. Create a new private GitHub repository with a neutral name such as
+   `research-view-7k3p`.
+2. Upload all files from this folder to the repository root.
+3. In Vercel, select **Add New → Project** and import that repository.
+4. Keep **Framework Preset** set to **Other**. No build command or output
+   directory is required.
+5. Deploy, then enable **Settings → Deployment Protection → All Deployments**.
+6. Open the deployment and select **Share → Anyone with the link**.
 
+The permissive `robots.txt` allows crawlers to retrieve the pages and read the
+`noindex` directives supplied by the HTML metadata and response headers.
+Deployment Protection remains the primary privacy control when access must be
+restricted rather than merely omitted from search results.
